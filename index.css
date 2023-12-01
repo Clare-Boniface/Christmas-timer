@@ -1,0 +1,62 @@
+:root {
+  --wine-red: #c7375f;
+  --bright-red: #d42d2f;
+  --snow: #f0f4f7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: var(--snow);
+  background-image: url("./images/pattern-bg.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  padding: 0.5em;
+  margin: 1em;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  margin-top: -1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: darkred;
+  color: var(--snow);
+  padding: 1em 2em;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.countdown-display {
+  font-size: 7rem;
+  margin: 0;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  font-size: 2em;
+}
+
+.countdown-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
